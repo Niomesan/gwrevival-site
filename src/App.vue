@@ -44,13 +44,23 @@ const randomBg = () => {
 };
 
 onMounted(() => {
+  const preloadedImages = bgs.value.map((bg) => {
+    const img = new Image();
+    img.src = `/bg/${bg}`;
+    return img;
+  });
   randomBg();
   const baseBg = document.getElementById('base-bg');
   if (baseBg) {
     setInterval(() => {
       randomBg();
-      baseBg.style.transition = 'background-image 1s linear';
-      baseBg.style.backgroundImage = `url(/bg/${bgCurrent.value})`;
+      const currentImage = preloadedImages.find(
+        (img) => img.src.endsWith(`/bg/${bgCurrent.value}`)
+      );
+      if (currentImage && currentImage.complete) {
+        baseBg.style.transition = 'background-image 1s linear';
+        baseBg.style.backgroundImage = `url(/bg/${bgCurrent.value})`;
+      }
     }, 5000);
   }
 });
