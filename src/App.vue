@@ -18,7 +18,7 @@
 
 
 #base-bg {
-  background-image: url(../public/bg/1.png);
+  background-image: url(/bg/1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@ onMounted(() => {
     setInterval(() => {
       randomBg();
       baseBg.style.transition = 'background-image 1s linear';
-      baseBg.style.backgroundImage = `url(../public/bg/${bgCurrent.value})`;
+      baseBg.style.backgroundImage = `url(/bg/${bgCurrent.value})`;
     }, 5000);
   }
 });
