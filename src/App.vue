@@ -7,7 +7,7 @@
 <style>
 @font-face {
   font-family: Constantia;
-  src: url("../public/fonsts/Constantia.ttf") format("truetype");
+  src: url("../public/fonts/Constantia.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
