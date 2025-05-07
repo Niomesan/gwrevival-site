@@ -1,5 +1,5 @@
 <template>
-  <div id="base-bg" class="w-screen h-auto pb-8 lg:pb-0 overflow-x-hidden">
+  <div id="base-bg" class="w-screen h-[100vh] pb-8 lg:pb-0 overflow-x-hidden">
     <RouterView />
   </div>
 </template>
