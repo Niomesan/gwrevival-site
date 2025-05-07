@@ -63,9 +63,9 @@
               <li>Charr On Pogo Sticks [hop]</li>
               <li>Custodians Of Ascalon [CofA]</li>
               <li>Day N Nite II [Nite]</li>
+              <li>Legendary Tyrians [Ltd]</li>
               <li>No Lords No Masters [ACAB]</li>
-              <li>Princess Academy [乃丹巴]</li>
-              <li>Terror Of The Dark [Dark]</li>
+              <li>Renaissance Wars [rW]</li>
               <li>We Have Become Heroes [サケもの]</li>
               <li>Will You Please [STFU]</li>
             </ul>
