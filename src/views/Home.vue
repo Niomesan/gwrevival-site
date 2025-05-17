@@ -62,11 +62,11 @@
             <ul class="text-sm pl-2">
               <li>Charr On Pogo Sticks [hop]</li>
               <li>Day N Nite II [Nite]</li>
+              <li>Legendary Elonians [Ltd]</li>
               <li>Legendary Tyrians [Ltd]</li>
               <li>No Lords No Masters [ACAB]</li>
               <li>Renaissance Wars [rW]</li>
               <li>Unidentified Soldiers [UiS]</li>
-              <li>We Have Become Heroes [サケもの]</li>
               <li>Will You Please [STFU]</li>
             </ul>
           </div>
