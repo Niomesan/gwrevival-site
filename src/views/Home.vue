@@ -67,7 +67,6 @@
               <li>Legendary Elonians [Ltd]</li>
               <li>Legendary Tyrians [Ltd]</li>
               <li>No Lords No Masters [ACAB]</li>
-              <li>Return Of The Acid Snake [TAS]</li>
               <li>Unidentified Soldiers [UiS]</li>
               <li>Will You Please [STFU]</li>
             </ul>
