@@ -13,6 +13,8 @@
         <button @click="pageSet(pages[2])"
         class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Video</button>
         -->
+        <button @click="pageSet(pages[4])"
+          class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Useful pages</button>
         <button @click="pageSet(pages[3])"
           class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Credits</button>
       </div>
@@ -80,6 +82,9 @@
           <Video />
         </div>
       -->
+      <div v-if="usefulPage">
+        <Useful />
+      </div>
       <div v-if="creditsPage">
         <Credits />
       </div>
@@ -110,14 +115,16 @@
 import Cape from '@/components/Capes.vue';
 import Video from '@/components/Video.vue';
 import Credits from '@/components/Credits.vue';
+import Useful from '@/components/UsefulPages.vue'
 import { computed, ref } from 'vue';
 
 const homePage = ref(true);
 const capePage = ref(false);
 const videoPage = ref(false);
 const creditsPage = ref(false);
+const usefulPage = ref(false)
 
-const pages = [homePage, capePage, videoPage, creditsPage];
+const pages = [homePage, capePage, videoPage, creditsPage, usefulPage];
 
 function pageSet(e: any) {
   pages.forEach((page) => {
