@@ -68,6 +68,7 @@
               <li>Legendary Tyrians [Ltd]</li>
               <li>No Lords No Masters [ACAB]</li>
               <li>Unidentified Soldiers [UiS]</li>
+              <li>We Are The Goofy Goober [GOOF]</li>
               <li>Will You Please [STFU]</li>
             </ul>
           </div>
