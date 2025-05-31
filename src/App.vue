@@ -8,17 +8,21 @@
         <nav>
           <div class="w-[100%] flex flex-col md:flex-row gap-2 pl-2 mb-4 md:mb-0 text-center">
             <RouterLink to="/"
-                class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Homepage
+              class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">
+              Homepage
             </RouterLink>
             <RouterLink to="/capes"
-                class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Capes
+              class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">
+              Capes
             </RouterLink>
             <RouterLink to="/useful_pages"
-                class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Useful
-                pages
+              class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">
+              Useful
+              pages
             </RouterLink>
             <RouterLink to="/credits"
-                class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">Credits
+              class="h-6 border-y-1 border-x-2 border-y-white border-t-white border-b-white md:border-b-black rounded-t-lg rounded-b-lg md:rounded-b-none px-2 hover:cursor-pointer text-gray-300 active:text-white hover:text-gray-200">
+              Credits
             </RouterLink>
           </div>
         </nav>
@@ -85,6 +89,9 @@ const randomBg = () => {
 };
 
 onMounted(() => {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
   const preloadedImages = bgs.value.map((bg) => {
     const img = new Image();
     img.src = `/bg/${bg}`;
