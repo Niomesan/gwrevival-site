@@ -1,5 +1,5 @@
 <template>
-    <!--Promo video is work in progress-->
+    <!--Promo video is work in progress, I assume-->
 </template>
 
 <style scoped></style>

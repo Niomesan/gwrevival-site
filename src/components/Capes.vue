@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center text-md lg:text-lg p-3 text-center mb-3 border-t-black border-l-black border-r-gray-300 border-b-gray-300 border-1 border-t-3 border-l-3 rounded-lg">
+    class="flex flex-col items-center text-md lg:text-lg p-3 lg:p-8 text-center mb-3 border-t-black border-l-black border-r-gray-300 border-b-gray-300 border-1 border-t-3 border-l-3 rounded-lg">
     <p>In-game capes of <span class="text-amber-500">T H E R E V I V A L [GWR]</span> and <span
         class="text-purple-500">A Lite In The Darkness [LiTE]</span>.</p>
     <div class="flex flex-col md:flex-row gap-10 mt-2">

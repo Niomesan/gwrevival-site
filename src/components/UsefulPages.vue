@@ -1,10 +1,10 @@
 <template>
     <div
-        class="flex flex-col items-center text-md lg:text-lg p-3 text-center mb-3 border-t-black border-l-black border-r-gray-300 border-b-gray-300 border-1 border-t-3 border-l-3 rounded-lg">
+        class="flex flex-col items-center text-md lg:text-lg p-3 md:p-8 text-center mb-3 border-t-black border-l-black border-r-gray-300 border-b-gray-300 border-1 border-t-3 border-l-3 rounded-lg">
         <h2 class="my-3 text-center">A collection of useful websites, Discord servers and resources that may eventually
             help your Tyrian journey.</h2>
         <div v-for="entry of usefulPages"
-            class="bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 w-[80%] h-auto m-auto flex flex-col md:flex-row mb-3 rounded-xl p-5 gap-3 items-center hover:scale-105 transition hover:cursor-pointer">
+            class="bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 w-[80%] h-auto m-auto flex flex-col md:flex-row my-3 rounded-xl p-5 gap-3 items-center hover:scale-105 transition hover:cursor-pointer">
             <img :src="entry.logo" class="w-14 h-14" />
             <div>
                 <h3 class="text-2xl text-center md:text-left">{{ entry.name }}</h3>
