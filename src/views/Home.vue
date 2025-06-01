@@ -18,13 +18,13 @@
       </div>
       <div class="flex flex-col md:flex-row gap-5 mb-3 w-[100%] p-2 md:p-0 justify-center lg:justify-start lg:ml-3">
         <a href="https://discord.gg/KYvPDxt"
-          class="p-2 flex flex-row gap-1 bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 rounded-lg hover:scale-105 transition"><svg
+          class="p-2 flex flex-row gap-1 bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 rounded-lg motion-safe:hover:scale-105 motion-safe:transition"><svg
             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path fill="currentColor"
               d="M22 11V8h-1V6h-1V5h-2V4h-3v1H9V4H6v1H4v1H3v2H2v3H1v7h2v1h2v1h2v-2H6v-1h2v1h1v1h6v-1h1v-1h2v1h-1v2h2v-1h2v-1h2v-7ZM9 15H7v-1H6v-2h1v-1h2v1h1v2H9Zm9-1h-1v1h-2v-1h-1v-2h1v-1h2v1h1Z" />
           </svg>Join our Discord server!</a>
         <a href="https://www.facebook.com/groups/gwrevival/"
-          class="p-2 flex flex-row gap-1 bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 rounded-lg hover:scale-105 transition"><svg
+          class="p-2 flex flex-row gap-1 bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 rounded-lg motion-safe:hover:scale-105 motion-safe:transition"><svg
             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path fill="currentColor"
               d="M23 2v20h-1v1h-8v-8h2v-1h1v-2h-3V9h1V8h2V5h-4v1h-2v2h-1v4H7v3h3v8H2v-1H1V2h1V1h20v1z" />
