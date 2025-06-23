@@ -1,6 +1,6 @@
 <template>
-  <div id="base-bg" class="w-screen h-[100vh] pb-8 lg:pb-0 overflow-x-hidden">
-    <div class="flex items-center flex-col justify-center w-screen pt-17 xl:pt-0 xl:mt-35 text-white constantia">
+  <div id="base-bg" class="w-screen h-[100vh] pb-8 overflow-x-hidden">
+    <div class="flex items-center flex-col justify-center w-screen pt-17 xl:pt-0 xl:mt-30 text-white constantia">
       <div id="texthl" class="p-1 w-[90%] xl:w-[75%] rounded-[50px] border-gray-300 border-1 border-x-6">
         <h1 class="text-[20px] md:text-[30px] lg:text-[40px] tracking-wider text-center z-[100]">GUILD WARS REVIVAL</h1>
       </div>
