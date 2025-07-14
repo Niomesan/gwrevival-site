@@ -36,7 +36,7 @@
       <div>
         <h2 class="text-lg lg:text-xl pl-2 text-[#DECE9E]">Our Guilds</h2>
         <div class="separator w-[100%] h-0.5 m-auto rounded-xl mb-2"></div>
-        <ul class="text-sm pl-2">
+        <ul class="text-sm pl-2 md:whitespace-nowrap">
           <li class="text-amber-500">T H E R E V I V A L [GWR]</li>
           <li class="text-purple-500">A Lite In The Darkness [LiTE]</li>
         </ul>
@@ -44,9 +44,10 @@
       <div>
         <h2 class="text-lg lg:text-xl pl-2 text-[#DECE9E]">Allianced guilds</h2>
         <div class="separator w-[100%] h-0.5 m-auto rounded-xl mb-2"></div>
-        <ul class="text-sm pl-2">
+        <ul class="text-sm pl-2 md:whitespace-nowrap">
           <li>Charr On Pogo Sticks [hop]</li>
           <li>Day N Nite II [Nite]</li>
+          <li>Dungeons Maidens Naps N Snacks [ワ爪れ己]</li>
           <li>Legendary Elonians [Ltd]</li>
           <li>Legendary Tyrians [Ltd]</li>
           <li>No Lords No Masters [ACAB]</li>
