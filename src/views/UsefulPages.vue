@@ -6,10 +6,10 @@
         <div v-for="entry of usefulPages"
             class="bg-gradient-to-b from-[#1F3046] to-[#142335] border-gray-300 border-1 border-x-4 w-[80%] h-auto m-auto flex flex-col md:flex-row my-3 rounded-xl p-5 gap-3 items-center motion-safe:hover:scale-105 motion-safe:transition hover:cursor-pointer">
             <img :src="entry.logo" class="w-14 h-14" />
-            <div>
+            <a :href="entry.target" target="_blank">
                 <h3 class="text-2xl text-center md:text-left">{{ entry.name }}</h3>
                 <p class="text-center md:text-left">{{ entry.description }}</p>
-            </div>
+            </a>
         </div>
     </div>
 </template>
