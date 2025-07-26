@@ -44,7 +44,8 @@
       <div>
         <h2 class="text-lg lg:text-xl pl-2 text-[#DECE9E]">Allianced guilds</h2>
         <div class="separator w-[100%] h-0.5 m-auto rounded-xl mb-2"></div>
-        <ul class="text-sm pl-2 md:whitespace-nowrap">
+        <h3 class="text-[#189384] text-lg">Luxon</h3>
+        <ul class="text-sm pl-2 md:whitespace-nowrap mb-3">
           <li>Charr On Pogo Sticks [hop]</li>
           <li>Day N Nite II [Nite]</li>
           <li>Dungeons Maidens Naps N Snacks [ワ爪れ己]</li>
@@ -53,6 +54,10 @@
           <li>No Lords No Masters [ACAB]</li>
           <li>We Are The Goofy Goober [GOOF]</li>
           <li>Will You Please [STFU]</li>
+        </ul>
+        <h3 class="text-[#FEE68A] text-lg">Kurzick</h3>
+        <ul class="text-sm pl-2 md:whitespace-nowrap">
+          <li>Legendary Tyrianss [Ltd]</li>
         </ul>
       </div>
     </div>
