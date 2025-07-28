@@ -38,7 +38,6 @@
         <div class="separator w-[100%] h-0.5 m-auto rounded-xl mb-2"></div>
         <ul class="text-sm pl-2 md:whitespace-nowrap">
           <li class="text-amber-500">T H E R E V I V A L [GWR]</li>
-          <li class="text-purple-300">T H E R E V I V A L II [GWR]</li>
           <li class="text-purple-500">A Lite In The Darkness [LiTE]</li>
         </ul>
       </div>
