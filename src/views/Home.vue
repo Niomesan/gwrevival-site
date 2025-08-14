@@ -37,8 +37,9 @@
         <h2 class="text-lg lg:text-xl pl-2 text-[#DECE9E]">Our Guilds</h2>
         <div class="separator w-[100%] h-0.5 m-auto rounded-xl mb-2"></div>
         <ul class="text-sm pl-2 md:whitespace-nowrap">
-          <li class="text-amber-500">T H E R E V I V A L [GWR]</li>
           <li class="text-purple-500">A Lite In The Darkness [LiTE]</li>
+          <li class="text-amber-500">The Revival [GWR] | <span class="text-[#189384]">Luxon</span></li>
+          <li class="text-amber-500">The Revival II [GWR] | <span class="text-[#FEE68A]">Kurzick</span></li>
         </ul>
       </div>
       <div>
@@ -58,6 +59,10 @@
         <h3 class="text-[#FEE68A] text-lg">Kurzick</h3>
         <ul class="text-sm pl-2 md:whitespace-nowrap">
           <li>Legendary Tyrianss [Ltd]</li>
+          <li>Dawn of a Million Souls [BhLd]</li>
+          <li>The Partycrew [PRTY]</li>
+          <li>Buildmakers Lab [LAB]</li>
+          <li>Oops Wrong Skill Bar [Oops]</li>
         </ul>
       </div>
     </div>
