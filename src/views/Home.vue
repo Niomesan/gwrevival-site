@@ -39,7 +39,7 @@
         <ul class="text-sm pl-2 md:whitespace-nowrap">
           <li class="text-purple-500">A Lite In The Darkness [LiTE]</li>
           <li class="text-amber-500">The Revival [GWR] | <span class="text-[#189384]">Luxon</span></li>
-          <li class="text-amber-500">The Revival II [GWR] | <span class="text-[#FEE68A]">Kurzick</span></li>
+          <li class="text-blue-500">The Revival II [GWR] | <span class="text-[#FEE68A]">Kurzick</span></li>
         </ul>
       </div>
       <div>
