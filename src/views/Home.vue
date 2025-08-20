@@ -1,7 +1,7 @@
 <template>
   <div
     class="p-3 md:p-8 mb-1 pb-10 flex flex-col lg:flex-row border-t-black border-l-black border-r-gray-300 border-b-gray-300 border-1 border-t-3 border-l-3 rounded-lg">
-    <div class="lg:w-[70%] xl:w-[60%]">
+    <div v-if="!isIntroShown" class="lg:w-[70%] xl:w-[60%]">
       <div class="text-md lg:text-lg p-3 text-center lg:text-left mb-3 lg:pr-15">
         <p class="mb-4 md:mb-8">
           Welcome to the heart of the Guild Wars Revival! Our community is dedicated to
@@ -63,6 +63,7 @@
           <li>The Partycrew [PRTY]</li>
           <li>Buildmakers Lab [LAB]</li>
           <li>Oops Wrong Skill Bar [Oops]</li>
+          <li>Scourge Metal Song [ML]</li>
         </ul>
       </div>
     </div>
@@ -72,4 +73,7 @@
 <style scoped></style>
 
 <script setup lang="ts">
+import { ref } from 'vue';
+
+const isIntroShown = ref(false);
 </script>
